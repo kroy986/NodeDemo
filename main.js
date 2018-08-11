@@ -9,7 +9,6 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
-
 routes.app(app);
 
 app.listen(process.env.PORT || port,function(req,res,next){
