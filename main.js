@@ -7,7 +7,7 @@ let bodyParser=require('body-parser');
 
 app.use(bodyParser.urlencoded({ extended: false }))
 
-// parse application/json bodyparser
+// parse application/json
 app.use(bodyParser.json())
 
 routes.app(app);
