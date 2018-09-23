@@ -1,5 +1,5 @@
-let express=require('express');
-let port=8000;
+let express = require('express');
+let port = 8000;
 let routes = require('./controller/userController');
 let router  = express.Router();
 let app=express();
